@@ -9,6 +9,7 @@ public class AddTwoNumbers {
         int a = 2;
         int b = 4;
         int c = 6;
-        System.out.println(a + b + c);
+        int d = a + b + c;
+        System.out.println("The sum is: " + d);
     }
 }
