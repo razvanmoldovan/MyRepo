@@ -9,7 +9,12 @@ public class AddTwoNumbers {
         int a = 2;
         int b = 4;
         int c = 6;
-        System.out.println("Add numbers");
+        System.out.println("Sum of 3 numbers: ");
         System.out.println(a + b + c);
+
+        int d = 8;
+        int e = a + b + c + d;
+        System.out.println("Sum of 4 numbers: ");
+        System.out.println(e);
     }
 }
