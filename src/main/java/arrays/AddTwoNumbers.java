@@ -9,9 +9,15 @@ public class AddTwoNumbers {
         int a = 2;
         int b = 4;
         int c = 6;
+        System.out.println("Sum of 3 numbers: ");
+        System.out.println(a + b + c);
         int d = 8;
-        int e = 10;
-        int f = a + b + c + d + e;
-        System.out.println("SUM: " + f);
+        int e = a + b + c + d;
+        System.out.println("Sum of 4 numbers: ");
+        System.out.println(e);
+
+        int f = e + 10;
+        System.out.println("Sum of 5 numbers: ");
+        System.out.println(f);
     }
 }
