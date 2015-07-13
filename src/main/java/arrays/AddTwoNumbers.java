@@ -16,5 +16,9 @@ public class AddTwoNumbers {
         int e = a + b + c + d;
         System.out.println("Sum of 4 numbers: ");
         System.out.println(e);
+
+        int f = e + 10;
+        System.out.println("Sum of 5 numbers: ");
+        System.out.println(f);
     }
 }
