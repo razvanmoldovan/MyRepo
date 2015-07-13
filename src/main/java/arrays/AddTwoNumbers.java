@@ -10,7 +10,8 @@ public class AddTwoNumbers {
         int b = 4;
         int c = 6;
         int d = 8;
-        int e = a + b + c + d;
-        System.out.println("SUM: " + e);
+        int e = 10;
+        int f = a + b + c + d + e;
+        System.out.println("SUM: " + f);
     }
 }
